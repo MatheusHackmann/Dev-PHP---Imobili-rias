@@ -115,11 +115,11 @@ $datas = $jsonObj->data;
 
                         <div class="col-12 col-md-4">
                             <label for="">Celular:</label>
-                            <input class="form-control" type="text" name="celular" onchange="attInformacoes()" value="<?php echo $d->st_celular_pes; ?>" required>
+                            <input class="form-control" type="number" name="celular" onchange="attInformacoes()" value="<?php echo $d->st_celular_pes; ?>" required>
                         </div>
                         <div class="col-12 col-md-4">
                             <label for="">Telefone:</label>
-                            <input class="form-control" type="text" name="telefone" onchange="attInformacoes()" value="<?php echo $d->st_telefone_pes; ?>" required>
+                            <input class="form-control" type="number" name="telefone" onchange="attInformacoes()" value="<?php echo $d->st_telefone_pes; ?>" required>
                         </div>
                         <div class="col-12 col-md-4">
                             <label for="">Email:</label>
@@ -128,7 +128,7 @@ $datas = $jsonObj->data;
 
                         <div class="col-12 col-md-4">
                             <label for="">RG:</label>
-                            <input class="form-control" type="text" name="rg" onchange="attInformacoes()" value="<?php echo $d->st_rg_pes; ?>" required>
+                            <input class="form-control" type="number" name="rg" onchange="attInformacoes()" value="<?php echo $d->st_rg_pes; ?>" required>
                         </div>
 
                         <div class="col-12 col-md-3 radio">
@@ -152,7 +152,7 @@ $datas = $jsonObj->data;
 
                         <div class="col-12 col-md-2">
                             <label for="">CEP:</label>
-                            <input class="form-control" type="text" name="cep" onchange="attInformacoes()" value="<?php echo $d->st_cep_pes; ?>" required>
+                            <input class="form-control" type="number" name="cep" onchange="attInformacoes()" value="<?php echo $d->st_cep_pes; ?>" required>
                         </div>
                         <div class="col-12 col-md-7">
                             <label for="">Endereço:</label>

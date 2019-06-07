@@ -98,7 +98,7 @@ if (isset($_POST['nome'])) {
                         </div>
                         <div class="col-12 col-md-5">
                             <label for="">RG:</label>
-                            <input class="form-control" type="text" name="rg" required>
+                            <input class="form-control" type="number" name="rg" required>
                         </div>
                         <div class="col-12 col-md-2">
                             <label for="">Orgão expeditor:</label>
