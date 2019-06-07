@@ -89,7 +89,7 @@ if (isset($_POST['deletar'])) {
                     </div>
                     <div class="col-12 col-md-2">
                         <label for="">CEP:</label>
-                        <input class="form-control" type="text" name="cep" value="<?php echo $imovel->getCep(); ?>" required readonly="readonly">
+                        <input class="form-control" type="number" name="cep" value="<?php echo $imovel->getCep(); ?>" required readonly="readonly">
                     </div>
 
                     <div class="col-12 col-md-8">

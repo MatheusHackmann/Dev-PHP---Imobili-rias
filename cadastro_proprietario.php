@@ -74,11 +74,11 @@ if (isset($_POST['nome'])) {
 
                         <div class="col-12 col-md-4">
                             <label for="">Celular:</label>
-                            <input class="form-control" type="text" name="celular" required>
+                            <input class="form-control" type="number" name="celular" required>
                         </div>
                         <div class="col-12 col-md-4">
                             <label for="">Telefone:</label>
-                            <input class="form-control" type="text" name="telefone" required>
+                            <input class="form-control" type="number" name="telefone" required>
                         </div>
                         <div class="col-12 col-md-4">
                             <label for="">Email:</label>
@@ -107,7 +107,7 @@ if (isset($_POST['nome'])) {
 
                         <div class="col-12 col-md-3 radio">
                             <label class="radio-inline">Sexo:&nbsp&nbsp</label>
-                            <label class="radio-inline"><input type="radio" name="sexo" value="M">Masculino</label>
+                            <label class="radio-inline"><input type="radio" name="sexo" value="M" checked>Masculino</label>
                             <label class="radio-inline"><input type="radio" name="sexo" value="F">Feminino</label>
                         </div>
                         <div class="col-12 col-md-2">
@@ -126,7 +126,7 @@ if (isset($_POST['nome'])) {
 
                         <div class="col-12 col-md-2">
                             <label for="">CEP:</label>
-                            <input class="form-control" type="text" name="cep" required>
+                            <input class="form-control" type="number" name="cep" required>
                         </div>
                         <div class="col-12 col-md-6">
                             <label for="">Endereço:</label>

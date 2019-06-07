@@ -58,7 +58,7 @@ if (isset($_POST['tipo'])) {
 						</div>
 						<div class="col-12 col-md-2">
 							<label for="">CEP:</label>
-							<input class="form-control" type="text" name="cep" required>
+							<input class="form-control" type="number" name="cep" required>
 						</div>
 
 						<div class="col-12 col-md-8">
